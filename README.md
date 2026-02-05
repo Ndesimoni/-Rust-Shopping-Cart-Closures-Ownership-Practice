@@ -2,23 +2,23 @@
 A small Rust project built to practice ownership, borrowing, and closures by modeling a real-world shopping cart system.  This project focuses on how behavior can be passed into functions safely using Rust’s type system instead of hard-coding logic.
 
 
-What This Project Demonstrates
+## What This Project Demonstrates
 
-Structuring real-world data using struct
+- Structuring real-world data using struct
 
-Owning collections with Vec<T>
+- Owning collections with Vec<T>
 
-Applying reusable logic using closures
+- Applying reusable logic using closures
 
-Understanding FnMut vs FnOnce
+- Understanding FnMut vs FnOnce
 
-Enforcing business rules at compile time
+- Enforcing business rules at compile time
 
-Avoiding unnecessary cloning or shared mutable state
+- Avoiding unnecessary cloning or shared mutable state
 
-🧠 Core Idea
+## 🧠 Core Idea
 
-Instead of writing many functions for different behaviors,
+### Instead of writing many functions for different behaviors,
 we write one traversal function and pass behavior into it.
 
 This keeps the code:
