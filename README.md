@@ -57,7 +57,7 @@ fn traverse_items<F>(&mut self, mut operation: F)
 where
     F: FnMut(&mut SupermarketItem),
 
-What this does (simple English):
+What this does 
 
 “Take a function and apply it to every item in the cart.”
 
