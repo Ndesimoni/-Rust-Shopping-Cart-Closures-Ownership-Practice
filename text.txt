@@ -1,0 +1,18 @@
+/*
+
+ 
+Declare a `total_price` variable initialized to 0.0.
+Invoke the `checkout` method and pass in a closure.
+The closure should receive mutable ownership of the
+`ShoppingCart` struct. In the body of the closure, output
+the cart in Debug format.
+ 
+Then, call the `traverse_items` closure IN THIS closure.
+Pass in a closure to `traverse_items`. The nested closure
+should increment the `total_price` value so that it gathers
+the cumulative sum of all of the `SupermarketItem`'s prices.
+ 
+Print out the final value of the `total_price` variable
+with a precision of 2 decimal points and a dollar sign
+in front.
+*/
